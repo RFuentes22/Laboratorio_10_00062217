@@ -1,0 +1,11 @@
+h1 Signup
+a(href="/") Inicio
+div= err
+form(method='POST' action='/users/signup')
+   div
+      input(type='email',placeholder='Ingrese su correo' name='email')
+   br
+   div
+     input(type='password', placeholder='*********' name='password')
+   br
+     input(type='submit' value='Registrar')
